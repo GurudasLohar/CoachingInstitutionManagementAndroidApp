@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="10dp"
+    android:layout_margin="10dp"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/ma"
+            android:text="Meeting Agenda:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/txtMeetAgenda"
+            android:textSize="16dp"
+            android:text="Monthly Review"
+            android:layout_toRightOf="@+id/ma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/md"
+            android:layout_below="@+id/ma"
+            android:text="Meeting Date:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtMeetDate"
+            android:textSize="15dp"
+            android:text="00/00/0000"
+            android:textColor="#F13E3E"
+            android:layout_below="@+id/txtMeetAgenda"
+            android:layout_toRightOf="@+id/md"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/mt"
+            android:layout_below="@+id/ma"
+            android:layout_toRightOf="@+id/txtMeetDate"
+            android:text="Meeting Time:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtMeetTime"
+            android:textSize="15dp"
+            android:text="00:00"
+            android:textColor="#F13E3E"
+            android:layout_below="@+id/txtMeetAgenda"
+            android:layout_toRightOf="@+id/mt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

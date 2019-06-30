@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#EDEEFA">
+
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:text="Welcome To ManageClass"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="40dp"
+            android:text="About App"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:text="This is simple cloud based coaching institution management app that works in Android smartphone.
+            This app was built for institutional attendance but it is now used to notify institutional meetings,managing
+            institution timetable,taking feedback from students and recording of enquiries too."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:text="Admin"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:text="The admin generates profiles for each faculty and students.The userId and password is shared to each faculty and student.\nAdmin can also: 1)Create timetable for faculty 2)Check student attendance 3)Conduct enquiry 4)Schedule of meetings 5)Inspect enquiries by faculty and referral by student 6)Scrutinize feedback.  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:text="Faculty"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:text="The faculty can signup from any mobile device and start taking attendance from anywhere without being in front of a computer.\nFaculty can also: 1)Conduct enquiry 2)Check Meeting schedule 3)Check feedback details 4)Access timetable.  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:text="Student"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:text="The app used by student to keep track of their own attendance.Student can also:1)Refer institution the to friend 2)Access batch timetable. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:id="@+id/name"
+                android:text="Name :"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginRight="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_marginTop="2dp"
+                android:textSize="15dp"
+                android:text="Gurudas Lohar"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/contact"
+                android:text="Contact No:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtName"
+                android:layout_marginRight="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtContact"
+                android:layout_marginTop="2dp"
+                android:textSize="15dp"
+                android:text="0000000000"
+                android:layout_below="@+id/txtName"
+                android:layout_toRightOf="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:id="@+id/course"
+                android:text="Course:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginRight="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtCourse"
+                android:layout_marginTop="2dp"
+                android:textSize="15dp"
+                android:text="Diploma in Graphics and Web Designing"
+                android:layout_marginRight="13dp"
+                android:layout_toRightOf="@+id/course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+            <TextView
+                android:id="@+id/eb"
+                android:text="Enquiry By:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtEnquiryBy"
+                android:layout_marginTop="2dp"
+                android:textSize="15dp"
+                android:text="gurudas@gamil.com"
+                android:layout_toRightOf="@+id/eb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:orientation="vertical"
+    android:background="#A9B4FC">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:background="#303F9F">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/ic_launcher_home_new"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="230dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtSignInOne"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15dp"
+                    android:hint="Username"
+                    android:drawableLeft="@drawable/ic_person_outline_black"
+                    android:drawablePadding="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"/>
+
+                <EditText
+                    android:id="@+id/txtSignInTwo"
+                    android:inputType="textPassword"
+                    android:textSize="15dp"
+                    android:hint="Password"
+                    android:drawableLeft="@drawable/ic_lock_outline_black"
+                    android:drawablePadding="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:id="@+id/btnSignInOne"
+                    android:text="Sign-In"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:layout_width="250dp"
+                    android:background="#303F9F"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>

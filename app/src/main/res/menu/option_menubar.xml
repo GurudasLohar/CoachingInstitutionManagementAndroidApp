@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu1_id" android:title="My Account" android:icon="@drawable/ic_person_outline_black"/>
+    <item android:id="@+id/menu2_id" android:title="Log Out" android:icon="@drawable/ic_lock_outline_black"/>
+
+</menu>

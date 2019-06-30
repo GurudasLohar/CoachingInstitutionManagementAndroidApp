@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnquiryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#D7DBF3">
+        <TextView
+            android:text="New Enquiry"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="#101114"
+            android:layout_width="300dp"
+            android:layout_height="5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_create_black"/>
+        <EditText
+            android:id="@+id/enquiryBy"
+            android:textSize="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:hint="Enquiry by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_person_black"/>
+            <EditText
+                android:id="@+id/enquiryName"
+                android:textSize="15dp"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:hint="Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_local_phone_black"/>
+            <EditText
+                android:id="@+id/enquiryPhone"
+                android:textSize="15dp"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:hint="Phone Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_supervisor_account_black"/>
+            <EditText
+                android:textSize="15dp"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="25dp"
+                android:text="I am"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/enquiryRadioGroup">
+                <RadioButton
+                    android:id="@+id/enquiryStudent"
+                    android:text="Student"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:id="@+id/cc"
+                android:textSize="15dp"
+                android:text="Enquiry for Course"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_below="@+id/cc"
+                android:id="@+id/spnEnquiryCourse"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:textSize="15dp"
+                android:text="Date of Enquiry"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/enquiryDate"
+                android:textSize="15dp"
+                android:text="00/00/0000"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/enquiryDateImage"
+                android:layout_marginLeft="89dp"
+                android:src="@drawable/ic_date_range_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEnquirySubmit"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:background="#303F9F"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

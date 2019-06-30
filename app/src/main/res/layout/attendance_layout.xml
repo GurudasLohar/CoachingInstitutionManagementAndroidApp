@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/ac"
+            android:text="Attended Course:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/txtAttendCourseAdmin"
+            android:textSize="16dp"
+            android:text="Diploma In Web Design"
+            android:layout_toRightOf="@+id/ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/ad"
+            android:layout_below="@+id/ac"
+            android:text="Attend Date:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtAttendDateAdmin"
+            android:textSize="15dp"
+            android:text="00/00/0000"
+            android:layout_below="@+id/txtAttendCourseAdmin"
+            android:layout_toRightOf="@+id/ad"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/at"
+            android:layout_below="@+id/ac"
+            android:layout_toRightOf="@+id/txtAttendDateAdmin"
+            android:text="Attend Time:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtAttendTimeAdmin"
+            android:textSize="15dp"
+            android:text="00:00"
+            android:layout_below="@+id/txtAttendCourseAdmin"
+            android:layout_toRightOf="@+id/at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

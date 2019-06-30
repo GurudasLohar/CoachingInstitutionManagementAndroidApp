@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackStudentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D7DBF3">
+        <TextView
+            android:text="Feedback Form"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp">
+        <TextView
+            android:id="@+id/sf"
+            android:layout_marginLeft="50dp"
+            android:text="Select Faculty Name"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_below="@+id/sf"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/spnFacultyNameList"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="290dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cn"
+            android:layout_marginLeft="50dp"
+            android:text="Course Name"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/feedbackCourseName"
+            android:textSize="17dp"
+            android:layout_below="@+id/cn"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="30dp"
+            android:clickable="false"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="380dp"
+        android:gravity="center">
+
+        <RatingBar
+            android:id="@+id/feedbackRatingBar"
+            android:numStars="5"
+            android:stepSize="0.25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnFeedback"
+            android:text="Submit Feedback"
+            android:background="#303F9F"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

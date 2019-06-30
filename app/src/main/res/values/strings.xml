@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MyAttendance</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="faculty_courses">
+        <item> Select your Course </item>
+        <item> Programming Languages </item>
+        <item> Electrical and Mechanical CAD </item>
+        <item> Civil CAD </item>
+    </string-array>
+
+    <string-array name="student_courses">
+        <item> Select your Course </item>
+        <item> Diploma in Android Apps </item>
+        <item> Diploma in Web Designing</item>
+        <item> Diploma in Architectural Design</item>
+        <item> Diploma in Engineering Design</item>
+        <item> Diploma in Web Apps Development</item>
+        <item> Android </item>
+        <item> JAVA </item>
+        <item> WCF, WPF, MVC </item>
+        <item> .NET / Advanced .NET </item>
+        <item> C, C++, DS </item>
+        <item> CATIA </item>
+        <item> Siemens NX </item>
+        <item> Electrical Wiring Harness </item>
+        <item> AutoCAD Electrical </item>
+        <item> Revit MEP </item>
+        <item> Trimble SketchUp Pro </item>
+        <item> Revit® Architecture </item>
+        <item> 3ds Max </item>
+        <item> AutoCAD® </item>
+        <item> AutoScan® </item>
+        <item> AutoSteel® </item>
+    </string-array>
+
+    <string-array name="admin">
+        <item> Admin </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile_student">ProfileStudentActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

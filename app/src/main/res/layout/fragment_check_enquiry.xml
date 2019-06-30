@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckEnquiryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:layout_marginTop="50dp">
+            <TextView
+                android:textSize="15dp"
+                android:text="Enquiry Date"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtEnquiryDateCheck"
+                android:textSize="15dp"
+                android:text="00/00/0000"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/dateImageEC"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/ic_date_range_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:text="Check Enquiry"
+            android:id="@+id/btnCheckEnquiry"
+            android:layout_width="300dp"
+            android:background="#B7C2FD"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <ListView
+            android:padding="5dp"
+            android:divider="#303F9F"
+            android:dividerHeight="3dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/listView_enquiry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</FrameLayout>

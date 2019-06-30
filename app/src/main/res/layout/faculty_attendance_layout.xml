@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    android:layout_margin="10dp"
+    android:padding="15dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/sn"
+            android:text="Student Name:"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtStudentName"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:text="Gurudas Lohar"
+            android:layout_toRightOf="@+id/sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/studentStatus"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+                android:id="@+id/bt"
+                android:layout_below="@+id/sn"
+                android:text="Batch Time:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+                android:id="@+id/txtStudentTime"
+                android:layout_marginTop="2dp"
+                android:textSize="15dp"
+                android:text="2.5"
+                android:layout_below="@+id/sn"
+                android:layout_toRightOf="@+id/bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

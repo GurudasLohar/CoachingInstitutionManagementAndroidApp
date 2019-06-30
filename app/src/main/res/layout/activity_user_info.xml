@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_mail_black"/>
+        <EditText
+            android:id="@+id/userEmail"
+            android:textSize="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_lock_black"/>
+        <EditText
+            android:id="@+id/userPassword"
+            android:textSize="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_person_black"/>
+        <EditText
+            android:id="@+id/userName"
+            android:textSize="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:hint="User Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_local_phone_black"/>
+        <EditText
+            android:id="@+id/userPhone"
+            android:textSize="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_supervisor_account_black"/>
+        <EditText
+            android:textSize="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:text="I am"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup">
+            <RadioButton
+                android:id="@+id/txtStudent"
+                android:text="Student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/txtFaculty"
+                android:text="Faculty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/txtAdmin"
+                android:text="Admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sc"
+            android:textSize="15dp"
+            android:text="Select Course"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:layout_below="@+id/sc"
+            android:id="@+id/spnCourse"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:textSize="15dp"
+            android:text="Date of joining"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/userDate"
+            android:textSize="15dp"
+            android:text="00/00/0000"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/dateImage"
+            android:layout_marginLeft="95dp"
+            android:src="@drawable/ic_date_range_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:textSize="15dp"
+            android:text="Batch Timing"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/userTime"
+            android:textSize="15dp"
+            android:text="00:00"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/timeImage"
+            android:layout_marginLeft="115dp"
+            android:src="@drawable/ic_access_alarms_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#303F9F"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

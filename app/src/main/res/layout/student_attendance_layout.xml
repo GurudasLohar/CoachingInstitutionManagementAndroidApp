@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="10dp"
+    android:layout_margin="10dp"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/ac"
+            android:text="Attended Course:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/txtAttendCourse"
+            android:textSize="16dp"
+            android:text="Diploma In Web Design"
+            android:layout_toRightOf="@+id/ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/ad"
+            android:layout_below="@+id/ac"
+            android:text="Attend Date:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtAttendDate"
+            android:textSize="15dp"
+            android:text="00/00/0000"
+            android:layout_below="@+id/txtAttendCourse"
+            android:layout_toRightOf="@+id/ad"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/at"
+            android:layout_below="@+id/ac"
+            android:layout_toRightOf="@+id/txtAttendDate"
+            android:text="Attend Time:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtAttendTime"
+            android:textSize="15dp"
+            android:text="00:00"
+            android:textColor="#F72727"
+            android:layout_below="@+id/txtAttendCourse"
+            android:layout_toRightOf="@+id/at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

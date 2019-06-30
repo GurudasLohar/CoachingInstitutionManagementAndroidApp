@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/fg"
+            android:text="Feedback Given By:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtFeedbackGivenBy"
+            android:textSize="15dp"
+            android:text="gurudas@gmail.com"
+            android:layout_toRightOf="@+id/fg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nc"
+            android:text="Course Name:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtFeedbackCourse"
+            android:textSize="15dp"
+            android:layout_marginLeft="36dp"
+            android:text="Diploma in Android"
+            android:layout_toRightOf="@+id/nc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/fr"
+            android:text="Rate for Course:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtFeedbackRate"
+            android:textSize="15dp"
+            android:text="2.5"
+            android:textStyle="italic"
+            android:textColor="#F33535"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/fr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/date"
+            android:text="Date"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtFeedbackDate"
+            android:textSize="15dp"
+            android:text="00/00/0000"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/txtFeedbackDate"
+            android:id="@+id/time"
+            android:text="Time"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtFeedbackTime"
+            android:textSize="15dp"
+            android:text="00:00"
+            android:layout_toRightOf="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>
