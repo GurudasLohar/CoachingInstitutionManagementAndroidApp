@@ -84,7 +84,7 @@
         <TextView
             android:layout_marginTop="10dp"
             android:textSize="14dp"
-            android:text="The app used by student to keep track of their own attendance.Student can also:1)Refer institution the to friend 2)Access batch timetable. "
+            android:text="The app used by student to keep track of their own attendance.Student can also:1)Refer the institution to friend 2)Access batch timetable. "
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
